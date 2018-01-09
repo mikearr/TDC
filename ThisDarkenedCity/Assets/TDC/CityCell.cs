@@ -5,14 +5,13 @@ using UnityEngine;
 public class CityCell : MonoBehaviour {
 
 	public IntVector2 coordinates;
+	private CityCellEdge[] edges = new CityCellEdge[CityDirections.count];
 
-	// Use this for initialization
-	void Start () {
-		
+	public CityCellEdge GetEdge (CityDirection direction) {
+		return edges[(int)direction];
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public void SetEdge (CityDirection direction, CityCellEdge edge) {
+		edges[(int)direction] = edge;
 	}
 }

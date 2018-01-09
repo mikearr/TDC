@@ -53,10 +53,13 @@
   <ItemGroup>
      <Compile Include="Assets\TDC\City.cs" />
      <Compile Include="Assets\TDC\CityCell.cs" />
+     <Compile Include="Assets\TDC\CityCellEdge.cs" />
      <Compile Include="Assets\TDC\GameManager.cs" />
      <Compile Include="Assets\TDC\Structs\CityDirection.cs" />
      <Compile Include="Assets\TDC\Structs\CityDirections.cs" />
      <Compile Include="Assets\TDC\Structs\IntVector2.cs" />
+     <Compile Include="Assets\TDC\Walls\CityPassage.cs" />
+     <Compile Include="Assets\TDC\Walls\CityWall.cs" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
